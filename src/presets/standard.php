@@ -5,7 +5,7 @@
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
- * @link http://www.2amigos.us/
+ * @link http://www.alexdin.us/
  */
 return [
     'height' => 300,

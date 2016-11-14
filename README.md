@@ -1,12 +1,12 @@
 CKEditor Widget for Yii2
 ========================
 
-[![Latest Version](https://img.shields.io/github/tag/2amigos/yii2-ckeditor-widget.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-ckeditor-widget/tags)
+[![Latest Version](https://img.shields.io/github/tag/alexdin/yii2-ckeditor-widget.svg?style=flat-square&label=release)](https://github.com/alexdin/yii2-ckeditor-widget/tags)
 [![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/2amigos/yii2-ckeditor-widget/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-ckeditor-widget)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/yii2-ckeditor-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-ckeditor-widget/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-ckeditor-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-ckeditor-widget)
-[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-ckeditor-widget.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-ckeditor-widget)
+[![Build Status](https://img.shields.io/travis/alexdin/yii2-ckeditor-widget/master.svg?style=flat-square)](https://travis-ci.org/alexdin/yii2-ckeditor-widget)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/alexdin/yii2-ckeditor-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/alexdin/yii2-ckeditor-widget/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/alexdin/yii2-ckeditor-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/alexdin/yii2-ckeditor-widget)
+[![Total Downloads](https://img.shields.io/packagist/dt/alexdin/yii2-ckeditor-widget.svg?style=flat-square)](https://packagist.org/packages/alexdin/yii2-ckeditor-widget)
 
 Renders a [CKEditor WYSIWYG text editor plugin](http://www.ckeditor.com) widget.
 
@@ -17,12 +17,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require 2amigos/yii2-ckeditor-widget
+composer require alexdin/yii2-ckeditor-widget
 ```
 or add
 
 ```json
-"2amigos/yii2-ckeditor-widget" : "2.0"
+"alexdin/yii2-ckeditor-widget" : "2.0"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -157,6 +157,6 @@ License
 The BSD License (BSD). Please see [License File](LICENSE.md) for more information.
 
 
-> [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)  
+> [![alexdin!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.alexdin.us)  
 <i>Web development has never been so fun!</i>  
-[www.2amigos.us](http://www.2amigos.us)
+[www.alexdin.us](http://www.alexdin.us)

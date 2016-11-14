@@ -1,6 +1,6 @@
 /**
- * @copyright Copyright (c) 2012-2015 2amigOS! Consulting Group LLC
- * @link http://2amigos.us
+ * @copyright Copyright (c) 2012-2015 alexdin! Consulting Group LLC
+ * @link http://alexdin.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 if (typeof alexdin == "undefined" || !alexdin) {

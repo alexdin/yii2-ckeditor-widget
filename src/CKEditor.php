@@ -1,7 +1,7 @@
 <?php
 /**
- * @copyright Copyright (c) 2013-2016 2amigOS! Consulting Group LLC
- * @link http://2amigos.us
+ * @copyright Copyright (c) 2013-2016 alexdin! Consulting Group LLC
+ * @link http://alexdin.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 namespace alexdin\ckeditor;
@@ -15,7 +15,7 @@ use yii\widgets\InputWidget;
  * @see http://docs.ckeditor.com/
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
- * @link http://www.2amigos.us/
+ * @link http://www.alexdin.us/
  * @package alexdin\ckeditor
  */
 class CKEditor extends InputWidget
