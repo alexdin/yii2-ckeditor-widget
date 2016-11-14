@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  */
 class CKEditorAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/alexdin/ckeditor-releases/';
+    public $sourcePath = '@vendor/alexdin/ckeditor-releases';
     public $js = [
         'ckeditor.js',
         'adapters/jquery.js'
