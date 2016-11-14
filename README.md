@@ -44,7 +44,7 @@ Using a model with a basic preset:
 
 ```
 
-use dosamigos\ckeditor\CKEditor;
+use alexdin\ckeditor\CKEditor;
 
 
 <?= $form->field($model, 'text')->widget(CKEditor::className(), [
@@ -56,7 +56,7 @@ Using inline edition with basic preset:
 
 ```
 
-use dosamigos\ckeditor\CKEditorInline;
+use alexdin\ckeditor\CKEditorInline;
 
 <?php CKEditorInline::begin(['preset' => 'basic']);?>
     This text can be edited now :)
@@ -86,7 +86,7 @@ widget. No more talking, here is the code:
 ```php 
 <?php
  
-use dosamigos\ckeditor\CKEditorInline;
+use alexdin\ckeditor\CKEditorInline;
 
 // First we need to tell CKEDITOR variable where is our external plufin 
 $this->registerJs("CKEDITOR.plugins.addExternal('pbckcode', '/pbckcode/plugin.js', '');");
@@ -115,7 +115,7 @@ $this->registerJs("CKEDITOR.plugins.addExternal('pbckcode', '/pbckcode/plugin.js
 
 About extra assets 
 ------------------
-You maybe wonder why there is file `dosamigos-ckeditor.widget.js`. The reason is that due to the way Yii2 works with 
+You maybe wonder why there is file `alexdin-ckeditor.widget.js`. The reason is that due to the way Yii2 works with 
 forms and Cross-Site Request Forgery (csrf). CKEditor does not trigger the on change event nor collects the CSRF token 
 when using file uploads. 
 

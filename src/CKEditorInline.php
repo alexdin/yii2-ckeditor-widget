@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\ckeditor;
+namespace alexdin\ckeditor;
 
 use yii\base\Widget;
 use yii\helpers\Html;
@@ -16,7 +16,7 @@ use yii\helpers\Json;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\ckeditor
+ * @package alexdin\ckeditor
  */
 class CKEditorInline extends Widget
 {
@@ -88,7 +88,7 @@ class CKEditorInline extends Widget
         $js[] = "CKEDITOR.inline('$id', $options);";
 
         if (isset($this->clientOptions['filebrowserUploadUrl'])) {
-            $js[] = "dosamigos.ckEditorWidget.registerCsrfImageUploadHandler();";
+            $js[] = "alexdin.ckEditorWidget.registerCsrfImageUploadHandler();";
         }
 
         $view->registerJs(implode("\n", $js));

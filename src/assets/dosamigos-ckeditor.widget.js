@@ -3,11 +3,11 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-if (typeof dosamigos == "undefined" || !dosamigos) {
-    var dosamigos = {};
+if (typeof alexdin == "undefined" || !alexdin) {
+    var alexdin = {};
 }
 
-dosamigos.ckEditorWidget = (function ($) {
+alexdin.ckEditorWidget = (function ($) {
 
     var pub = {
         registerOnChangeHandler: function (id) {

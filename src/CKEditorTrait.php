@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\ckeditor;
+namespace alexdin\ckeditor;
 
 use yii\helpers\ArrayHelper;
 
@@ -14,7 +14,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\ckeditor
+ * @package alexdin\ckeditor
  */
 trait CKEditorTrait
 {

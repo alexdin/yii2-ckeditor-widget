@@ -3,7 +3,7 @@
 namespace tests\data\overrides;
 
 
-use dosamigos\ckeditor\CKEditorInline;
+use alexdin\ckeditor\CKEditorInline;
 use yii\helpers\Json;
 use yii\web\View;
 
@@ -26,10 +26,10 @@ class TestCKEditorInline extends CKEditorInline
             : '{}';
 
         $js[] = "CKEDITOR.replace('$id', $options);";
-        $js[] = "dosamigos.ckEditorWidget.registerOnChangeHandler('$id');";
+        $js[] = "alexdin.ckEditorWidget.registerOnChangeHandler('$id');";
 
         if (isset($this->clientOptions['filebrowserUploadUrl'])) {
-            $js[] = "dosamigos.ckEditorWidget.registerCsrfImageUploadHandler();";
+            $js[] = "alexdin.ckEditorWidget.registerCsrfImageUploadHandler();";
         }
 
         $view->registerJs(implode("\n", $js), View::POS_READY, 'test-ckeditor-js');

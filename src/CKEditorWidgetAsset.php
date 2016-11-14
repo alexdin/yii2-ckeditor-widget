@@ -4,7 +4,7 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\ckeditor;
+namespace alexdin\ckeditor;
 
 use yii\web\AssetBundle;
 
@@ -14,17 +14,17 @@ use yii\web\AssetBundle;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\ckeditor
+ * @package alexdin\ckeditor
  */
 class CKEditorWidgetAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/2amigos/yii2-ckeditor-widget/src/assets/';
 
     public $depends = [
-        'dosamigos\ckeditor\CKEditorAsset'
+        'alexdin\ckeditor\CKEditorAsset'
     ];
 
     public $js = [
-        'dosamigos-ckeditor.widget.js'
+        'alexdin-ckeditor.widget.js'
     ];
 }
